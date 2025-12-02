@@ -12,6 +12,8 @@ class PageController extends Controller
     }
 
     public function aPropos() {
-        return view('about');
+        return view('about', [
+            'title' => 'A Propos'
+        ]);
     }
 }
