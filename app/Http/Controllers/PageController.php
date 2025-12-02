@@ -7,7 +7,8 @@ use Illuminate\Http\Request;
 class PageController extends Controller
 {
     public function accueil() {
-        return view('home');
+        return view('home', [
+            'title' => 'Accueil']);
     }
 
     public function aPropos() {
