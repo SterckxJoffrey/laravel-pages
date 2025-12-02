@@ -6,11 +6,11 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    public function acceuil() {
-        return view('Home');
+    public function accueil() {
+        return view('home');
     }
 
     public function aPropos() {
-        return view('About');
+        return view('about');
     }
 }
