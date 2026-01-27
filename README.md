@@ -53,3 +53,10 @@ php artisan serve
 ![Page à propos](screenshots/propos.png)
 
 ![Serveur local](screenshots/serveur.png)
+
+![Connexion](screenshots/connexion.png)
+
+![Création Article](screenshots/creationArticle.png)
+
+![Database](screenshots/db.png)
+
